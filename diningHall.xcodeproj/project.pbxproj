@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D33BD141B4223A6004E0893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D33BD131B4223A6004E0893 /* AppDelegate.swift */; };
+		8D33BD171B4223A6004E0893 /* diningHall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D33BD151B4223A6004E0893 /* diningHall.xcdatamodeld */; };
+		8D33BD191B4223A6004E0893 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D33BD181B4223A6004E0893 /* ViewController.swift */; };
+		8D33BD1C1B4223A6004E0893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33BD1A1B4223A6004E0893 /* Main.storyboard */; };
+		8D33BD1E1B4223A6004E0893 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D33BD1D1B4223A6004E0893 /* Images.xcassets */; };
+		8D33BD211B4223A6004E0893 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D33BD1F1B4223A6004E0893 /* LaunchScreen.xib */; };
+		8D33BD2D1B4223A6004E0893 /* diningHallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D33BD2C1B4223A6004E0893 /* diningHallTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D33BD271B4223A6004E0893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D33BD061B4223A6004E0893 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D33BD0D1B4223A6004E0893;
+			remoteInfo = diningHall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D33BD0E1B4223A6004E0893 /* diningHall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diningHall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D33BD121B4223A6004E0893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D33BD131B4223A6004E0893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D33BD161B4223A6004E0893 /* diningHall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = diningHall.xcdatamodel; sourceTree = "<group>"; };
+		8D33BD181B4223A6004E0893 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D33BD1B1B4223A6004E0893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D33BD1D1B4223A6004E0893 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D33BD201B4223A6004E0893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8D33BD261B4223A6004E0893 /* diningHallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diningHallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D33BD2B1B4223A6004E0893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D33BD2C1B4223A6004E0893 /* diningHallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diningHallTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D33BD0B1B4223A6004E0893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D33BD231B4223A6004E0893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D33BD051B4223A6004E0893 = {
+			isa = PBXGroup;
+			children = (
+				8D33BD101B4223A6004E0893 /* diningHall */,
+				8D33BD291B4223A6004E0893 /* diningHallTests */,
+				8D33BD0F1B4223A6004E0893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D33BD0F1B4223A6004E0893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D33BD0E1B4223A6004E0893 /* diningHall.app */,
+				8D33BD261B4223A6004E0893 /* diningHallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D33BD101B4223A6004E0893 /* diningHall */ = {
+			isa = PBXGroup;
+			children = (
+				8D33BD131B4223A6004E0893 /* AppDelegate.swift */,
+				8D33BD181B4223A6004E0893 /* ViewController.swift */,
+				8D33BD1A1B4223A6004E0893 /* Main.storyboard */,
+				8D33BD1D1B4223A6004E0893 /* Images.xcassets */,
+				8D33BD1F1B4223A6004E0893 /* LaunchScreen.xib */,
+				8D33BD151B4223A6004E0893 /* diningHall.xcdatamodeld */,
+				8D33BD111B4223A6004E0893 /* Supporting Files */,
+			);
+			path = diningHall;
+			sourceTree = "<group>";
+		};
+		8D33BD111B4223A6004E0893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D33BD121B4223A6004E0893 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D33BD291B4223A6004E0893 /* diningHallTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D33BD2C1B4223A6004E0893 /* diningHallTests.swift */,
+				8D33BD2A1B4223A6004E0893 /* Supporting Files */,
+			);
+			path = diningHallTests;
+			sourceTree = "<group>";
+		};
+		8D33BD2A1B4223A6004E0893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D33BD2B1B4223A6004E0893 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D33BD0D1B4223A6004E0893 /* diningHall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D33BD301B4223A6004E0893 /* Build configuration list for PBXNativeTarget "diningHall" */;
+			buildPhases = (
+				8D33BD0A1B4223A6004E0893 /* Sources */,
+				8D33BD0B1B4223A6004E0893 /* Frameworks */,
+				8D33BD0C1B4223A6004E0893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diningHall;
+			productName = diningHall;
+			productReference = 8D33BD0E1B4223A6004E0893 /* diningHall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D33BD251B4223A6004E0893 /* diningHallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D33BD331B4223A6004E0893 /* Build configuration list for PBXNativeTarget "diningHallTests" */;
+			buildPhases = (
+				8D33BD221B4223A6004E0893 /* Sources */,
+				8D33BD231B4223A6004E0893 /* Frameworks */,
+				8D33BD241B4223A6004E0893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D33BD281B4223A6004E0893 /* PBXTargetDependency */,
+			);
+			name = diningHallTests;
+			productName = diningHallTests;
+			productReference = 8D33BD261B4223A6004E0893 /* diningHallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D33BD061B4223A6004E0893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Diwas  Timilsina";
+				TargetAttributes = {
+					8D33BD0D1B4223A6004E0893 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8D33BD251B4223A6004E0893 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8D33BD0D1B4223A6004E0893;
+					};
+				};
+			};
+			buildConfigurationList = 8D33BD091B4223A6004E0893 /* Build configuration list for PBXProject "diningHall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D33BD051B4223A6004E0893;
+			productRefGroup = 8D33BD0F1B4223A6004E0893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D33BD0D1B4223A6004E0893 /* diningHall */,
+				8D33BD251B4223A6004E0893 /* diningHallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D33BD0C1B4223A6004E0893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D33BD1C1B4223A6004E0893 /* Main.storyboard in Resources */,
+				8D33BD211B4223A6004E0893 /* LaunchScreen.xib in Resources */,
+				8D33BD1E1B4223A6004E0893 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D33BD241B4223A6004E0893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D33BD0A1B4223A6004E0893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D33BD191B4223A6004E0893 /* ViewController.swift in Sources */,
+				8D33BD141B4223A6004E0893 /* AppDelegate.swift in Sources */,
+				8D33BD171B4223A6004E0893 /* diningHall.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D33BD221B4223A6004E0893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D33BD2D1B4223A6004E0893 /* diningHallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D33BD281B4223A6004E0893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D33BD0D1B4223A6004E0893 /* diningHall */;
+			targetProxy = 8D33BD271B4223A6004E0893 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D33BD1A1B4223A6004E0893 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D33BD1B1B4223A6004E0893 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D33BD1F1B4223A6004E0893 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D33BD201B4223A6004E0893 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D33BD2E1B4223A6004E0893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D33BD2F1B4223A6004E0893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D33BD311B4223A6004E0893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = diningHall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D33BD321B4223A6004E0893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = diningHall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D33BD341B4223A6004E0893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = diningHallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diningHall.app/diningHall";
+			};
+			name = Debug;
+		};
+		8D33BD351B4223A6004E0893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = diningHallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diningHall.app/diningHall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D33BD091B4223A6004E0893 /* Build configuration list for PBXProject "diningHall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D33BD2E1B4223A6004E0893 /* Debug */,
+				8D33BD2F1B4223A6004E0893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D33BD301B4223A6004E0893 /* Build configuration list for PBXNativeTarget "diningHall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D33BD311B4223A6004E0893 /* Debug */,
+				8D33BD321B4223A6004E0893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D33BD331B4223A6004E0893 /* Build configuration list for PBXNativeTarget "diningHallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D33BD341B4223A6004E0893 /* Debug */,
+				8D33BD351B4223A6004E0893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D33BD151B4223A6004E0893 /* diningHall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D33BD161B4223A6004E0893 /* diningHall.xcdatamodel */,
+			);
+			currentVersion = 8D33BD161B4223A6004E0893 /* diningHall.xcdatamodel */;
+			path = diningHall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D33BD061B4223A6004E0893 /* Project object */;
+}
